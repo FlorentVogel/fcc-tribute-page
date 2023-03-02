@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-size: 6rem;
+}
+
+.sub-text-one, 
+.sub-text-two {
+    font-size: 2.2rem;
+    letter-spacing: 10px;
+    display: block;
+    margin-top: -12px;
+}
+
+.sub-text-one {
+    margin-left: 15px;
+}
+.sub-text-two {
+    margin-left: 10px;
+}
+
+#title {
+    margin: 50px auto;
+}
+
+#main {
+    margin: 0 auto;
+    max-width: 550px;
+    min-width: 330px;
+    width: 550px;
+}
+
+img {
+    display: block;
+}
+
+#img-div {
+    margin: 80px auto;
+}
+
+#image {
+    object-fit: cover;
+    margin: 0 auto;
+    width: 550px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid transparent;
+    border-image: linear-gradient(-45deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8);
+    border-image-slice: 1;
+    box-shadow: 0 3px 15px rgba(150,150,50,0.3);
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#tribute-info {
+    margin: 50px auto;
+    width: 500px;
+    word-wrap: break-word;
+}
+
+h3 {
+    margin: 50px auto;
+    font-size: 4rem;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 10px #333;
+}
+
+strong {
+    background: -webkit-linear-gradient(#a166ab, #f37055);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+article p{
+    max-width: 550px;
+    margin: 40px auto;
+    text-align: justify;
+    border: 1px solid transparent;
+    padding: 12px 24px;
+    border-image: linear-gradient(-45deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8);
+    border-image-slice: 1;
+    box-shadow: 0 3px 15px rgba(150,150,50,0.3);
+    
+}
+
+article,
+.footer-link,
+#img-caption  {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: #f37055;
+}
+a:hover {
+    color: #a166ab;
+}
+
+a:visited {
+    color: #5073b8;
+}
+
+@media only screen and (max-width: 720px) {
+
+    #image {
+        width: 350px;
+    }
+
+    h1, h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    .sub-text-one, 
+    .sub-text-two {
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    display: block;
+    margin-top: -12px;
+    }
+
+    .sub-text-one {
+    margin-left: 0px;
+    }
+    .sub-text-two {
+    margin-left: 0px;
+    }
+
+    article p{
+        width: 350px;
+        padding: 6px 12px;
+    }
+}
